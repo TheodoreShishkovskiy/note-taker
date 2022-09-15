@@ -4,10 +4,10 @@ const app = express();
 const apiRoutes = require('./routes/apiRoutes');
 const PORT = process.env.PORT || 3003;
 
-// Folder to retrieve CSS and JS Files
+// This folder will retrieve CSS and JS Files
 app.use(express.static("public"));
 
-// Middleware to parse the JSON data
+// Middleware in order to parse the JSON dat
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use('/api', apiRoutes);
