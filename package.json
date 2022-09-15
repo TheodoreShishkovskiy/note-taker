@@ -1,25 +1,23 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TheodoreShishkovskiy/note-taker)\r ![GitHub repo size](https://img.shields.io/github/repo-size/TheodoreShishkovskiy/note-taker)\r ![GitHub](https://img.shields.io/github/license/TheodoreShishkovskiy/note-taker)\r ![GitHub followers](https://img.shields.io/github/followers/TheodoreShishkovskiy?style=social)\r ![GitHub package.json version](https://img.shields.io/github/package-json/v/TheodoreShishkovskiy/\r ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/TheodoreShishkovskiy/note-taker)note-taker)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheodoreShishkovskiy/note-taker.git"
+    "test": "jest",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Theodore Shishkovskiy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TheodoreShishkovskiy/note-taker/issues"
-  },
-  "homepage": "https://github.com/TheodoreShishkovskiy/note-taker#readme",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.1",
-    "inquirer": "^8.2.4",
-    "jest": "^29.0.3"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheodoreShishkovskiy/note-taker"
   }
 }
